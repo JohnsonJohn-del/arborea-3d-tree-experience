@@ -14,6 +14,7 @@ This document is the final technical handoff record for **ARBOREA (`immersive-3d
 | **Clone URL** | `https://github.com/JohnsonJohn-del/arborea-3d-tree-experience.git` |
 | **Branch** | `main` |
 | **Initial Code Commit** | `0017054` (`feat: immersive 3d ancient oak tree growth experience`) |
+| **Last Verified Commit** | `97bbc72` (`docs: add complete project walkthrough and handoff documentation`) |
 | **Development Server** | Verified on `http://localhost:3000` (`npm run dev -- -p 3000`) and via Cloudflare quick tunnel |
 | **Production Build** | Verified passing (`npm run build` exits with `0`; `/` static route `17.2 kB`, First Load JS `105 kB`) |
 | **Known Issues** | Zero runtime, TypeScript, ESLint, or build errors. CPU-driven per-frame `InstancedMesh` matrix updates in `TreeModel.tsx` (~4,962 instances on desktop) could be moved to GPU vertex attributes if targeting older low-end mobile devices. |
@@ -272,7 +273,7 @@ All 8 image assets in `public/` were generated during this project using the Ant
 | **Remote (`origin`)** | `https://github.com/JohnsonJohn-del/arborea-3d-tree-experience.git` |
 | **Branch** | `main` |
 | **Base Code Commit** | `0017054` (`feat: immersive 3d ancient oak tree growth experience`) |
-| **Documentation Commit** | Committed & pushed on `main` (`docs: add complete project walkthrough and handoff documentation`) |
+| **Documentation Commit** | `97bbc72` (`docs: add complete project walkthrough and handoff documentation`) |
 | **Committed Handoff Files** | `01_ANTIGRAVITY_EXECUTION_PROMPT.md`, `02_PROJECT_WALKTHROUGH.md`, `03_TECHNICAL_REPLICATION_GUIDE.md`, `04_HANDOFF_AND_SKILLS.md` |
 | **Secrets / `.env` Audit** | Verified zero secrets, tokens, or `.env` files tracked in Git |
 | **Push Status** | **Pushed and verified on `origin/main`** |
